@@ -1,0 +1,86 @@
+QuestionId: blogs-01-1
+When	WRB	6	advmod
+did	VBD	6	aux
+the	DT	5	det
+G20	NN	5	nn
+summit	NN	6	nsubj
+start	VB	0	ROOT
+
+QuestionId: blogs-01-10
+What	WP	2	nsubj
+happened	VBD	0	ROOT
+to	TO	2	prep
+the	DT	6	det
+police	NN	6	nn
+cars	NNS	3	pobj
+
+QuestionId: blogs-01-11
+What	WP	3	nsubjpass
+was	VBD	3	auxpass
+fired	VBN	0	ROOT
+
+QuestionId: blogs-01-12
+What	WP	3	nsubjpass
+was	VBD	3	auxpass
+fired	VBN	0	ROOT
+at	IN	3	prep
+the	DT	6	det
+rioters	NNS	4	pobj
+
+QuestionId: blogs-01-13
+What	WP	3	nsubjpass
+was	VBD	3	auxpass
+smashed	VBN	0	ROOT
+
+QuestionId: blogs-01-2
+What	WP	6	dobj
+is	VBZ	6	auxpass
+the	DT	5	det
+summit	NN	5	nn
+meeting	NN	6	nsubjpass
+named	VBN	0	ROOT
+
+QuestionId: blogs-01-3
+Where	WRB	5	advmod
+did	VBD	5	aux
+the	DT	4	det
+protest	NN	5	nsubj
+happen	VB	0	ROOT
+
+QuestionId: blogs-01-4
+What	WP	5	dobj
+did	VBD	5	aux
+the	DT	4	det
+people	NNS	5	nsubj
+burn	VBP	0	ROOT
+
+QuestionId: blogs-01-5
+Who	WP	2	nsubj
+rebelled	VBN	0	ROOT
+
+QuestionId: blogs-01-6
+Who	WP	2	nsubj
+created	VBD	0	ROOT
+a	DT	4	det
+riot	NN	2	dobj
+
+QuestionId: blogs-01-7
+What	WP	2	nsubj
+happened	VBD	0	ROOT
+to	TO	2	prep
+a	DT	6	det
+police	NN	6	nn
+car	NN	3	pobj
+
+QuestionId: blogs-01-8
+Who	WP	2	nsubj
+burned	VBD	0	ROOT
+a	DT	5	det
+police	NN	5	nn
+car	NN	2	dobj
+
+QuestionId: blogs-01-9
+What	WP	3	nsubjpass
+was	VBD	3	auxpass
+burned	VBN	0	ROOT
+

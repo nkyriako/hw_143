@@ -1,0 +1,21 @@
+QuestionId: fables-01-1
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (DT the) (NN crow)) (VP (VBG sitting))) (. ?)))
+
+QuestionId: fables-01-2
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN crow)) (VP (VBP have) (PP (IN in) (NP (PRP$ her) (NN beak))))) (. ?)))
+
+QuestionId: fables-01-3
+(ROOT (SBARQ (WHNP (WP Who)) (VBZ is) (NP (DT the) (NNP Story)) (ADJP (IN about)) (. ?)))
+
+QuestionId: fables-01-4
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN fox)) (VP (VBP do) (PP (TO to) (NP (DT the) (NN cheese))))) (. ?)))
+
+QuestionId: fables-01-5
+(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (DT the) (NN fox) (NN standing))) (. ?)))
+
+QuestionId: fables-01-6
+(ROOT (SBARQ (WHNP (WP What)) (SQ (VBD did) (NP (DT the) (NN crow)) (VP (VB feel))) (. ?)))
+
+QuestionId: fables-01-7
+(ROOT (SBARQ (WHNP (WP Who)) (SQ (VP (VBD flattered) (NP (DT the) (NN crow)))) (. ?)))
+
