@@ -2,6 +2,9 @@ import zipfile, os
 import re, nltk
 from collections import OrderedDict
 
+# delete line below when combining into one file
+from baseline_stub import get_sentences, get_bow, find_phrase, baseline
+
 ###############################################################################
 ## Utility Functions ##########################################################
 ###############################################################################
@@ -36,7 +39,7 @@ def get_data_dict(fname):
 def read_file(filename):
     fh = open(filename, 'r')
     text = fh.read()
-    fh.close()   
+    fh.close()
     return text
 
 ###############################################################################
@@ -44,14 +47,18 @@ def read_file(filename):
 ###############################################################################
 
 
-    
+
 #######################################################################
 
 if __name__ == '__main__':
 
+    # ported over from baseline_stub, not totally relevant
+    stopwords = set(nltk.corpus.stopwords.words("english"))
+
+
     # Loop over the files in fables and blogs in order.
     output_file = open("train_my_answers.txt", "w", encoding="utf-8")
-    cname_size_dict = OrderedDict();
+    cname_size_dict = OrderedDict()
     cname_size_dict.update({"fables":2})
     cname_size_dict.update({"blogs":1})
     for cname, size in cname_size_dict.items():
@@ -69,31 +76,40 @@ if __name__ == '__main__':
                     question = questions[qname]['Question']
                     print(question)
                     qtypes = questions[qname]['Type']
-                    
-		    # Read the content of fname.questions.par, fname.questions.dep for hint.
+
+                    # get question in the form of a set, probably want to change to a list
+                    qbow = get_bow(get_sentences(question)[0], stopwords)
+
+                    # Read the content of fname.questions.par, fname.questions.dep for hint.
                     question_par = data_dict["questions.par"]
                     question_dep = data_dict["questions.dep"]
-		    
+
                     answer = None
                     # qtypes can be "Story", "Sch", "Sch | Story"
                     for qt in qtypes.split("|"):
                         qt = qt.strip().lower()
                         # These are the text data where you can look for answers.
                         raw_text = data_dict[qt]
-                        par_text = data_dict[qt + ".par"]
-                        dep_text = data_dict[qt + ".dep"]
-                        # TODO: You need to find the answer for this question.
-                        answer = None
-                                            
-                    print("Answer: " + str(answer))
-                    print("")
+                        # Not relevant for Homework 1
+                        # par_text = data_dict[qt + ".par"]
+                        # dep_text = data_dict[qt + ".dep"]
+
+                        # Access POS tagged tokenized sentences
+                        sentences = get_sentences(raw_text)
+
+                        answer = baseline(qbow, sentences, stopwords)
+                        # Remove if baseline returns a string instead of list of tokens
+                        answer = " ".join(t[0] for t in answer)
+
+                        print("Answer: " + str(answer))
+                        print("")
 
                     # Save your results in output file.
                     output_file.write("QuestionID: {}\n".format(qname))
                     output_file.write("Answer: {}\n\n".format(answer))
     output_file.close()
 
-                    
+
 
 
 
