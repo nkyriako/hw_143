@@ -1,21 +1,93 @@
 QuestionID: fables-01-1
-Answer: None
+Answer: on a branch of a tree
 
 QuestionID: fables-01-2
-Answer: None
+Answer: when a Fox observed her and set his wits to work to discover some way of getting the cheese 
 
 QuestionID: fables-01-3
-Answer: None
+Answer: a crow a branch a tree a piece a fox
 
 QuestionID: fables-01-4
-Answer: None
+Answer: 
 
 QuestionID: fables-01-5
-Answer: None
+Answer: under the tree 
 
 QuestionID: fables-01-6
-Answer: None
+Answer: 
 
 QuestionID: fables-01-7
-Answer: None
+Answer: the fox
+
+QuestionID: fables-02-1
+Answer: the royal
+
+QuestionID: fables-02-2
+Answer: the bull the lion
+
+QuestionID: fables-02-3
+Answer: in a meadow 
+
+QuestionID: fables-02-4
+Answer: the bull
+
+QuestionID: fables-02-5
+Answer: the lion
+
+QuestionID: fables-02-6
+Answer: 
+
+QuestionID: fables-02-7
+Answer: a lion a fat a meadow
+
+QuestionID: fables-02-8
+Answer: 
+
+QuestionID: fables-02-9
+Answer: to eat the bull 
+
+QuestionID: fables-02-10
+Answer: the lion feared sharp every horn of the bull 
+
+QuestionID: fables-02-11
+Answer: sharp every horn of the bull 
+
+QuestionID: blogs-01-1
+Answer: on eventful today 
+
+QuestionID: blogs-01-2
+Answer: G20 summit started on eventful today 
+
+QuestionID: blogs-01-3
+Answer: on a street 
+
+QuestionID: blogs-01-4
+Answer: a police car and threw a thing at a police 
+
+QuestionID: blogs-01-5
+Answer: the people
+
+QuestionID: blogs-01-6
+Answer: the people
+
+QuestionID: blogs-01-7
+Answer: and threw a thing at a police 
+
+QuestionID: blogs-01-8
+Answer: the people
+
+QuestionID: blogs-01-9
+Answer: 
+
+QuestionID: blogs-01-10
+Answer: 
+
+QuestionID: blogs-01-11
+Answer: 
+
+QuestionID: blogs-01-12
+Answer: while they smash windows of stores 
+
+QuestionID: blogs-01-13
+Answer: 
 
