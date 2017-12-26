@@ -1,0 +1,93 @@
+QuestionID: fables-01-1
+Answer: on a branch of a tree with a piece of cheese in her beak
+
+QuestionID: fables-01-2
+Answer: when a Fox observed her and set his wits to work to discover some way of getting the cheese 
+
+QuestionID: fables-01-3
+Answer: a crow a branch a tree a piece a fox
+
+QuestionID: fables-01-4
+Answer: 
+
+QuestionID: fables-01-5
+Answer: under the tree 
+
+QuestionID: fables-01-6
+Answer: 
+
+QuestionID: fables-01-7
+Answer: the fox
+
+QuestionID: fables-01-8
+Answer: 
+
+QuestionID: fables-01-9
+Answer: in the beak 
+
+QuestionID: fables-01-10
+Answer: a Fox
+
+QuestionID: fables-01-11
+Answer: A fox
+
+QuestionID: fables-01-12
+Answer: that he saw a noble bird who was above him
+
+QuestionID: fables-01-13
+Answer: 
+
+QuestionID: fables-02-1
+Answer: the royal
+
+QuestionID: fables-02-2
+Answer: the bull the lion
+
+QuestionID: fables-02-3
+Answer: in a meadow 
+
+QuestionID: fables-02-4
+Answer: the bull
+
+QuestionID: fables-02-5
+Answer: A lion
+
+QuestionID: fables-02-6
+Answer: that the lion was friendly
+
+QuestionID: fables-02-7
+Answer: a lion a fat a meadow
+
+QuestionID: fables-02-8
+Answer: The Bull
+
+QuestionID: fables-02-9
+Answer: to eat the bull
+
+QuestionID: fables-02-10
+Answer: because the lion feared sharp every horn of the bull
+
+QuestionID: fables-02-11
+Answer: sharp every horn of the bull 
+
+QuestionID: fables-02-12
+Answer: horns
+
+QuestionID: fables-02-13
+Answer: the lion
+
+QuestionID: fables-02-14
+Answer: because the lion wanted to eat the bull
+
+QuestionID: fables-02-15
+Answer: the bull to remove every horn of the bull because every horn of the bull was ugly
+
+QuestionID: fables-02-16
+Answer: because every horn of the bull was ugly
+
+QuestionID: fables-02-17
+Answer: to attempt to kill the bull
+
+QuestionID: fables-02-18
+Answer: the lion the bull the lion the bull
+
